@@ -55,7 +55,7 @@ function draw() {
     ground.x=ground.width/2;
   }
   
-  
+  ground.velocityX = -4
    
     if(keyDown("space") && monkey.collide(ground))     {  
       monkey.velocityY = -15
